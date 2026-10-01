@@ -1,21 +1,64 @@
+Makky Portfolio
 
-# MakkyPortfolio
-Makky's Portfolio
-=======
-# React + Vite
+My personal developer portfolio built with React and Vite.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The site showcases my projects, skills, and the things I'm currently building as I continue improving as a developer.
 
-Currently, two official plugins are available:
+Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Coming soon.
 
-## React Compiler
+Built With
+React
+Vite
+Tailwind CSS
+Framer Motion
+JavaScript
+What's Inside
+Responsive portfolio layout
+Hero section
+About section
+Skills section
+Project showcase
+Contact section
+Mobile navigation
+Smooth animations and transitions
+Featured Project
+Mon Bridge DEX
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+A DEX frontend I'm building with React and ethers.js.
 
-## Expanding the ESLint configuration
+GitHub: https://github.com/MakkyHive/statc-frontend-new
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
- (commited my portfolio site today)
+Live Demo: https://statc-frontend-nig4zyp73-makktechs-projects.vercel.app
+
+Running Locally
+
+Clone the repository:
+
+git clone https://github.com/MakkyHive/MakkyPortfolio.git
+
+Go into the project:
+
+cd MakkyPortfolio
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm run dev
+
+Build for production:
+
+npm run build
+Project Status
+
+This portfolio is a work in progress. I'll continue updating it as I build more projects and improve my development skills.
+
+Author
+
+MakkyHive
+
+GitHub: https://github.com/MakkyHive
