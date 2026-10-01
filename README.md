@@ -4,9 +4,7 @@ My personal developer portfolio built with React and Vite.
 
 The site showcases my projects, skills, and the things I'm currently building as I continue improving as a developer.
 
-Live Site
-
-Coming soon.
+Live Site: https://vite-react-five-gilt-70.vercel.app/
 
 Built With
 React
