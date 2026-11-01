@@ -24,6 +24,23 @@ const projects = [
     iconColor: "text-lime-300",
   },
   {
+    title: "Vista Express",
+    initials: "VE",
+    description:
+      "A logistics and shipping website I personally developed using React for the frontend and PHP for parts of the backend. The platform presents local delivery and international freight services, provides shipment-tracking entry points, and gives customers ways to contact the company, including WhatsApp.",
+    stack: [
+      "React",
+      "PHP",
+    ],
+    type: "Logistics / Full-Stack Development",
+    status: "Live",
+    demo: "https://vistaexpress.org/",
+    accent:
+      "from-red-500/20 via-orange-500/10 to-amber-500/10",
+    glow: "bg-red-400/10",
+    iconColor: "text-red-300",
+  },
+  {
     title: "Mon Bridge DEX",
     initials: "MB",
     description:
@@ -76,7 +93,10 @@ function Projects() {
               initial={{ opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.15 }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
+              transition={{
+                duration: 0.5,
+                delay: index * 0.1,
+              }}
               className="group overflow-hidden rounded-3xl border border-white/10 bg-white/[0.03]"
             >
               <div className="grid md:grid-cols-[1.1fr_1fr]">
@@ -156,6 +176,7 @@ function Projects() {
                     </div>
                   </div>
 
+                  {/* Project links */}
                   <div className="mt-8 flex flex-wrap gap-3">
                     {project.demo && (
                       <a
@@ -168,14 +189,16 @@ function Projects() {
                       </a>
                     )}
 
-                    <a
-                      href={project.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="rounded-full border border-white/15 px-5 py-2.5 text-sm font-semibold transition hover:border-white/30 hover:bg-white/5"
-                    >
-                      GitHub ↗
-                    </a>
+                    {project.github && (
+                      <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="rounded-full border border-white/15 px-5 py-2.5 text-sm font-semibold transition hover:border-white/30 hover:bg-white/5"
+                      >
+                        GitHub ↗
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>
